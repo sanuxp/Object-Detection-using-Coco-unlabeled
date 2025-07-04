@@ -40,6 +40,9 @@ def main():
         torch.save(
             model.state_dict(), CHECKPOINT_DIR / f"detector_epoch{epoch}.pth"
         )
+    torch.save(
+            model.state_dict(), "Model.pth"
+        )
 
 if __name__ == "__main__":
     main()

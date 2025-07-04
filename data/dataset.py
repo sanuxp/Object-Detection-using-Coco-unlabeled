@@ -1,11 +1,11 @@
-"""Dataset wrappers."""
+#Dataset wrappers
 from pathlib import Path
 from torch.utils.data import Dataset
 from torchvision.io import read_image
 from .preprocessing import get_preprocess_pipeline
 
 class CocoUnlabeledDataset(Dataset):
-    """Wrap COCO *unlabeled2017* JPEGs as a PyTorch Dataset."""
+    # Wrap COCO *unlabeled2017* JPEGs as a PyTorch Dataset.
     def __init__(self, root: Path):
         self.root = Path(root)
         self.files = sorted(self.root.glob("*.jpg"))
