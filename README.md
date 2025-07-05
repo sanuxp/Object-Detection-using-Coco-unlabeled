@@ -40,7 +40,7 @@ coco_detector_modular/
 
 ---
 
-## Setup
+## Setup 
 
 1. **Clone or unzip the project**
 
