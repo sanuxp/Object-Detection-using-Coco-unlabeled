@@ -55,7 +55,7 @@ cd coco_detector_modular
 pip install -r requirements.txt
 ```
 
-3. **Download COCO unlabeled images (~20 GB)**
+3. **Download COCO unlabeled images (~19 GB)**
 
 ```bash
 wget http://images.cocodataset.org/zips/unlabeled2017.zip
